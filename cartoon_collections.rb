@@ -13,8 +13,9 @@ def long_planeteer_calls(array)
 end
 
 def find_valid_calls(array)
-    valid_calls = ["Earth!"]
+    valid_calls = []
     array.find do |calls|
     array.include?([])
   end
+  
 end
