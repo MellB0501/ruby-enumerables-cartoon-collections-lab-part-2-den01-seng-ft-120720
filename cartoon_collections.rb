@@ -13,6 +13,6 @@ def long_planeteer_calls(array)
 end
 
 def find_valid_calls(array)
-  valid_calls = ["cheddar", "gouda", "camembert"]
-   array.find { |cheese| cheese_types.include?(cheese) }
+  valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
+   array.find { |calls| cheese_types.include?(cheese) }
 end
