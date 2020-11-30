@@ -14,5 +14,6 @@ end
 
 def find_valid_calls(array)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
-   array.find { |calls| valid_calls.include?(calls) }
+  array.find { |calls| valid_calls.include?(calls) }
+end
 end
