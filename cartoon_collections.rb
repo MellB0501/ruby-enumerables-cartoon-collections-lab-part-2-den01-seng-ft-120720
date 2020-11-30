@@ -17,5 +17,5 @@ def find_valid_calls(array)
     array.find do |calls|
     array.include?([])
   end
-  
+  puts "Earth!"
 end
